@@ -1,0 +1,78 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\rolle\\Downloads\\RDA.ContentHub.Library\\RDA.ContetHub.AzureFunctions\\RDA.ContentHub.AzureFunctions.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\rolle\\Downloads\\RDA.ContentHub.Library\\RDA.ContetHub.AzureFunctions\\RDA.ContentHub.AzureFunctions.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\rolle\\Downloads\\RDA.ContentHub.Library\\RDA.ContetHub.AzureFunctions\\RDA.ContentHub.AzureFunctions.csproj",
+        "projectName": "RDA.ContentHub.AzureFunctions",
+        "projectPath": "C:\\Users\\rolle\\Downloads\\RDA.ContentHub.Library\\RDA.ContetHub.AzureFunctions\\RDA.ContentHub.AzureFunctions.csproj",
+        "packagesPath": "C:\\Users\\rolle\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\rolle\\Downloads\\RDA.ContentHub.Library\\RDA.ContetHub.AzureFunctions\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\rolle\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.Azure.WebJobs.Extensions.DurableTask": {
+              "target": "Package",
+              "version": "[2.1.1, )"
+            },
+            "Microsoft.NET.Sdk.Functions": {
+              "target": "Package",
+              "version": "[3.0.3, )"
+            },
+            "Stylelabs.M.Sdk.WebClient": {
+              "target": "Package",
+              "version": "[3.4.0, )"
+            },
+            "System.Configuration.ConfigurationManager": {
+              "target": "Package",
+              "version": "[4.7.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

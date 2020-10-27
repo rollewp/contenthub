@@ -1,0 +1,12 @@
+{
+  "IsEncrypted": false,
+  "MClientId": "REDACTED",
+  "MClientSecret": "REDACTED",
+  "MUsername": "REDACTED",
+  "MPassword": "REDACTED",
+  "MHost": "REDACTED",
+  "Values": {
+    "AzureWebJobsStorage": "UseDevelopmentStorage=true",
+    "AzureWebJobsDashboard": "UseDevelopmentStorage=true"
+  }
+}
